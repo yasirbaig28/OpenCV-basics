@@ -1,0 +1,7 @@
+import cv2
+
+image=cv2.imread('exp1.jpg')
+
+#print(image)
+
+cv2.imshow('exp1 image',image)
