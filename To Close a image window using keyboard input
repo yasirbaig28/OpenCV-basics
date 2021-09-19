@@ -1,0 +1,14 @@
+import cv2
+import numpy as np
+
+image=cv2.imread('exp1.jpg')
+
+#print(image)
+
+cv2.imshow('exp1 image',image)
+
+k = cv2.waitKey(0)
+
+if k==ord('q'):
+    cv2.destroyAllWindows()
+    
