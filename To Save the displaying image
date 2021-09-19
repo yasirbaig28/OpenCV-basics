@@ -1,0 +1,7 @@
+#To Save the displaying image
+import cv2
+import numpy as np
+
+image=cv2.imread('exp1.jpg',0)
+
+cv2.imwrite('exp1_gray.jpg',image)
